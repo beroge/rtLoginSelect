@@ -21,6 +21,10 @@ body {
     border-radius: 16%;
 
   }
+  .login-header img {
+    max-width:100%;
+    height:auto;
+  }
   .login-form {
 
 background: rgba(255, 255, 255, 0.2);
@@ -32,20 +36,22 @@ border: 1px solid rgba(255, 255, 255, 0.1);
   }
   .login-form h3 {
     text-align:left;
-    margin-left:40px;
+    padding-left:20px;
     color:#fff;
   }
   .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-sizing:border-box;
     padding-top:15px;
       padding-bottom:10%;
     margin:5% auto;
-    text-align:center;
   }
   .login input[type="text"],
   .login input[type="password"] {
-    max-width:400px;
-      width: 80%;
+
     line-height:3em;
     font-family: 'Ubuntu', sans-serif;
     margin:1em 2em;
