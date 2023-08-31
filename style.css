@@ -26,6 +26,7 @@ a {
   background: rgba(255, 255, 255, 0.2);
   padding: 30px;
   border-radius: 16%;
+  margin-top:1.8rem;
 }
 .login-header img {
   max-width: 100%;
