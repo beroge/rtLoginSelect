@@ -155,7 +155,7 @@ button {
 	 margin: 0;
 	 width: 3rem;
 	 height: 3rem;
-	 background: #282936;
+	 background: #3223d3;
 	 border-radius: 1.625rem;
 }
  button.learn-more .circle .icon {
@@ -184,10 +184,11 @@ button {
 	 border-right: 0.125rem solid #fff;
 	 transform: rotate(45deg);
 }
+
  button.learn-more .button-text {
 	 transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 	 position: absolute;
-	 top: 0;
+	 top: 1rem;
 	 left: 0;
 	 right: 0;
 	 bottom: 0;
@@ -196,9 +197,10 @@ button {
 	 color: #282936;
 	 font-weight: 700;
 	 line-height: 1.6;
-	 text-align: center;
+	 /* text-align: center; */
 	 text-transform: uppercase;
 }
+
  button:hover .circle {
 	 width: 100%;
 }
@@ -209,4 +211,6 @@ button {
  button:hover .button-text {
 	 color: #fff;
 }
- 
+.push {
+  margin-left:45px!important;
+} 
