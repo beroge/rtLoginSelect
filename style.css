@@ -215,3 +215,7 @@ button {
 .push {
   margin-left:45px!important;
 } 
+.button-text:active{
+  font-size: .8rem;
+  text-shadow: #fff -5px 5px 2px;
+}
